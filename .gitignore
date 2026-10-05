@@ -1,0 +1,8 @@
+# 판매자 개인키·발급 코드 (절대 커밋 금지)
+.secrets/
+
+node_modules/
+_site/
+*.log
+.DS_Store
+Thumbs.db

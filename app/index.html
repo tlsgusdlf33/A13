@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>템플릿킷</title>
+    <meta name="description" content="가계부, 업무 관리표, 여행 플래너를 PC와 휴대폰에서 함께 쓰는 템플릿 앱" />
+    <meta name="theme-color" content="#4c6ef5" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="템플릿킷" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <div id="app" class="app"><div class="boot">불러오는 중…</div></div>
+    <div id="update-banner" class="update-banner" role="status" hidden></div>
+    <div id="toasts" class="toasts" aria-live="polite"></div>
+    <noscript>이 앱을 사용하려면 JavaScript를 켜 주세요.</noscript>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "appId": "kr.templatekit.app",
+  "appName": "템플릿킷",
+  "webDir": "app",
+  "plugins": {
+    "CapacitorUpdater": {
+      "autoUpdate": false
+    }
+  }
+}
